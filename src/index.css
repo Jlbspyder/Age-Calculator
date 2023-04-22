@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+ 
+* {
+  font-family: 'Poppins', sans-serif;
+ }
+ .container {
+  position: relative;
+  width: 450px;
+  height: 350px;
+  background: hsl(0, 0%, 100%);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;;
+  border-radius: 10px 10px 100px 10px;
+  margin: 50px auto;
+ }
+
+.form {
+  width: 300px;
+  height: 90px;
+  display: flex;
+  gap: 10px;
+  padding: 40px 0 0 5px;
+  margin-left: 20px;
+  position: relative;
+}
+.input-control {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+#border {
+  border: 1px solid gray;
+  position: absolute;
+  top: 100%;
+  left: 5px;
+  right: -55px;
+  opacity: 30%;
+}
+label {
+  font-size: 10px;
+  color:  hsl(0, 1%, 44%);
+}
+
+.input {
+  width: 95px;
+  height: 30px;
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 5px;
+  font-weight: 800;
+}
+.input:focus {
+  outline-color: pink;
+}
+
+.input:hover {
+  border-color: hsl(259, 100%, 65%) ;
+  cursor: pointer;
+}
+
+.btn {
+  background:hsl(259, 100%, 65%) ;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 28%;
+  right: 25px;
+}
+.btn:hover {
+  cursor: pointer;
+  background: hsl(0, 0%, 8%);
+}
+.age {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  line-height: 1px;
+  padding: 0 0 10px 35px;
+  margin-top: 10px;
+}
+h1 {
+  font-style: italic;
+  font-size: 50px;
+}
+span {
+  color: hsl(259, 100%, 65%);
+}
+.error {
+  color: hsl(0, 100%, 67%);
+}
+.input-error {
+  border: 1px solid hsl(0, 100%, 67%);
+}
+.msg {
+  height: 30px;
+  font-size: 8px;
+  color:  hsl(0, 100%, 67%);
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 320px;
+    height: 450px;
+  }
+  #border {
+    left: 30px;
+    right: 30px;
+    opacity: 30%;
+  }
+  .form {
+    height: 130px;
+    padding: 0;
+  }
+  .input-control {
+    align-items: left;
+    padding-top: 40px;
+    margin-left: 20px;
+  }
+  .input {
+    width: 55px;
+    height: 30px;
+  }
+  .btn {
+    top: 24%;
+    right: 43%;
+  }
+  .age {
+    margin-top: 50px;
+  }
+}
+  
