@@ -11,7 +11,12 @@ const Inputs = () => {
   const [monthAge, setMonthAge] = useState("")
   const [yearAge, setYearAge] = useState("")
   const [dayError, setDayError] = useState("")
+  const [monthError, setMonthError] = useState("")
+  const [errorData, setErrorData] = useState({})
   const date = new Date()
+  
+
+  
   // Get current date
   const currentDate = new Date();
 
@@ -19,8 +24,6 @@ const Inputs = () => {
   const birthDate = new Date(year, month - 1, day);
 
   // Calculate age
- 
-  
   function calcAge() {
     const ageInMilliseconds = currentDate.getTime() - birthDate.getTime();
     const age = new Date(ageInMilliseconds);
@@ -35,6 +38,7 @@ const Inputs = () => {
     setYearAge(years)
     }
   }  
+
   
   
   
