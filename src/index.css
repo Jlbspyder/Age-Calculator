@@ -109,10 +109,11 @@ span {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .container {
     width: 350px;
-    height: 450px;
+    height: 480px;
     border-radius: 20px 20px 100px 20px;
   }
   #border {
+    top: 120%;
     left: 30px;
     right: 30px;
     opacity: 30%;
@@ -124,7 +125,7 @@ span {
   .input-control {
     align-items: left;
     padding-top: 40px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .input {
     width: 60px;
@@ -133,18 +134,18 @@ span {
     text-align: center;
   }
   .btn {
-    top: 24%;
+    top: 28%;
     right: 43%;
   }
   .age {
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-top: 50px;
+    margin-top: 70px;
   }
   .attribution { 
     font-size: 8px; 
     text-align: left; 
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
