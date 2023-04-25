@@ -119,13 +119,13 @@ const Inputs = () => {
     </button>
      <div className="age">
      <div>
-       {!year ? <h1><span>- -</span>years</h1> : <h1><span>{yearAge}</span>years</h1>}
+       {!submit ? <h1><span>- -</span>years</h1> : <h1><span>{yearAge}</span>years</h1>}
      </div>
      <div>
-       {!month ? <h1><span>- -</span>months</h1> : <h1><span>{monthAge}</span>months</h1>}
+       {!submit ? <h1><span>- -</span>months</h1> : <h1><span>{monthAge}</span>months</h1>}
      </div>
      <div>
-       {!day ? <h1><span>- -</span>days</h1> : <h1><span>{dayAge}</span>days</h1>}
+       {!submit ? <h1><span>- -</span>days</h1> : <h1><span>{dayAge}</span>days</h1>}
      </div>
    </div>
    </>
