@@ -135,7 +135,7 @@ const Inputs = () => {
      <div className={!greetings ? "no-greetings" : "rotate greetings"}>
        <h1><span id="bdy">HA</span>PPY</h1>
        <h1><span id="bdy">BIR</span>THDAY</h1>
-       <h1><span id="bdy">D</span>MAMA!</h1>
+       <h1><span id="bdy">DM</span>AMA!</h1>
      </div>
    </div>
    </>
