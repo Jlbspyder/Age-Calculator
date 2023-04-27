@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@fontsource/poppins": "^4.5.10",
-    "date-fns": "^2.29.3",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

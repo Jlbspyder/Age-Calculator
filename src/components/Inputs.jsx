@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { ReactComponent as Arrow} from "../assets/icon-arrow.svg"
 import moment from "moment"
-import { differenceInDays, differenceInMonths, differenceInYears } from "date-fns"
+
 
 
 const Inputs = () => {
