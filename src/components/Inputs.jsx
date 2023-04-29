@@ -14,7 +14,10 @@ const Inputs = () => {
   const [submit, setSubmit] = useState(false)
   const [rotate, setRotate] = useState(false)
   const [greetings, setGreetings] = useState(false)
+  const [celebrant, setCelebrant] = useState("")
   const [errorData, setErrorData] = useState({})
+
+ 
  
   const date = new Date();
   const months = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
@@ -43,9 +46,12 @@ const Inputs = () => {
           setMonthAge(monthAge)
           setYearAge(yearAge) 
           setRotate(!rotate)
-          }
+          } 
       if (dayAge=== 0 && monthAge === 0) {
         setGreetings(true)
+        setCelebrant("")
+      } else {
+        setGreetings(false)
       }
     },[errorData])
     
@@ -135,7 +141,7 @@ const Inputs = () => {
      <div className={!greetings ? "no-greetings" : "rotate greetings"}>
        <h1><span id="bdy">HA</span>PPY</h1>
        <h1><span id="bdy">BIR</span>THDAY</h1>
-       <h1><span id="bdy">DM</span>AMA!</h1>
+       <h1><span id="bdy">{celebrant}</span>!</h1>
      </div>
    </div>
    </>
