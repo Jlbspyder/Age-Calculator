@@ -49,7 +49,7 @@ const Inputs = () => {
           } 
       if (dayAge=== 0 && monthAge === 0) {
         setGreetings(true)
-        setCelebrant("")
+        setCelebrant("Anne")
       } else {
         setGreetings(false)
       }
