@@ -1,7 +1,10 @@
 # Age-Calculator
 
-  Your challenge is to build out this age calculator app and get it looking as close to the design as possible.
-  You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel   free to give it a go.
+  This is a solution to the [Age calculator app](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q).      Frontend Mentor challenges help you  improve your coding skills by building realistic projects. 
+
+### The Challenge
+
+Users should be able to:
 
 - View an age in years, months, and days after submitting a valid date through the form
 - Receive validation errors if:
